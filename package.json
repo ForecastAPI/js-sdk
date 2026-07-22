@@ -1,6 +1,6 @@
 {
   "name": "forecastapi-sdk",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "Time series forecasting service with multiple algorithms and automatic method selection",
   "license": "MIT",
   "main": "dist/index.js",
@@ -42,5 +42,13 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/forecastapi/js-sdk.git"
+  },
+  "homepage": "https://github.com/forecastapi/js-sdk#readme",
+  "bugs": {
+    "url": "https://github.com/forecastapi/js-sdk/issues"
+  }
 }
