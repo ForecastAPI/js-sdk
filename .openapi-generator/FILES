@@ -44,8 +44,6 @@ docs/CreateInventoryPlan400Response.md
 docs/CreateInventoryPlan500Response.md
 docs/CreateProductInsights400Response.md
 docs/CreateTrafficForecast500Response.md
-docs/DefaultApi.md
-docs/DeprecatedV1404Response.md
 docs/DetectAnomalies422Response.md
 docs/DetectAnomalies422ResponseOneOf.md
 docs/DetectAnomalies500Response.md
@@ -132,7 +130,6 @@ src/ApiClient.js
 src/api/AnalysisApi.js
 src/api/AnomalyDetectionApi.js
 src/api/BatchForecastingApi.js
-src/api/DefaultApi.js
 src/api/ForecastingApi.js
 src/api/GroupedForecastingApi.js
 src/api/HealthApi.js
@@ -179,7 +176,6 @@ src/model/CreateInventoryPlan400Response.js
 src/model/CreateInventoryPlan500Response.js
 src/model/CreateProductInsights400Response.js
 src/model/CreateTrafficForecast500Response.js
-src/model/DeprecatedV1404Response.js
 src/model/DetectAnomalies422Response.js
 src/model/DetectAnomalies422ResponseOneOf.js
 src/model/DetectAnomalies500Response.js
