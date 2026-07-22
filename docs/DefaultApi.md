@@ -1,33 +1,32 @@
-# ForecastapiSdk.DefaultApi
+# ForecastAPI.DefaultApi
 
 All URIs are relative to *https://forecastapi.com*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
-[**v1AnyGet**](DefaultApi.md#v1AnyGet) | **GET** /v1/{any} | Deprecated v1 endpoints
+[**deprecatedV1**](DefaultApi.md#deprecatedV1) | **GET** /v1/{any} | Deprecated v1 endpoints
 
 
 
-## v1AnyGet
+## deprecatedV1
 
-> v1AnyGet(any)
+> deprecatedV1(any)
 
 Deprecated v1 endpoints
 
 ### Example
 
 ```javascript
-import ForecastapiSdk from 'forecastapi-sdk';
+import ForecastAPI from 'forecastapi-sdk';
 
-let apiInstance = new ForecastapiSdk.DefaultApi();
+let apiInstance = new ForecastAPI.DefaultApi();
 let any = "any_example"; // String | 
-apiInstance.v1AnyGet(any, (error, data, response) => {
-  if (error) {
-    console.error(error);
-  } else {
-    console.log('API called successfully.');
-  }
+apiInstance.deprecatedV1(any).then(() => {
+  console.log('API called successfully.');
+}, (error) => {
+  console.error(error);
 });
+
 ```
 
 ### Parameters

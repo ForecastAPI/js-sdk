@@ -1,4 +1,4 @@
-# ForecastapiSdk.TrafficForecastingResponseResultScalingRecommendations
+# ForecastAPI.TrafficForecastingResponseResultScalingRecommendations
 
 ## Properties
 

@@ -1,4 +1,4 @@
-# ForecastapiSdk.ForecastRequestDataInner
+# ForecastAPI.ForecastRequestDataInner
 
 ## Properties
 

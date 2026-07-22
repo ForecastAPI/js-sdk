@@ -1,4 +1,4 @@
-# ForecastapiSdk.TrafficForecastingResponseResultCapacityAnalysisUtilizationPeriodsInner
+# ForecastAPI.TrafficForecastingResponseResultCapacityAnalysisUtilizationPeriodsInner
 
 ## Properties
 

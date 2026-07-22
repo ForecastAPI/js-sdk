@@ -1,4 +1,4 @@
-# ForecastapiSdk.AnalysisResponseResultCharacteristics
+# ForecastAPI.AnalysisResponseResultCharacteristics
 
 ## Properties
 

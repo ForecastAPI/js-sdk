@@ -1,4 +1,4 @@
-# ForecastapiSdk.TrafficForecastingRequest
+# ForecastAPI.TrafficForecastingRequest
 
 ## Properties
 

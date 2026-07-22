@@ -1,4 +1,4 @@
-# ForecastapiSdk.ValidationErrorResponse
+# ForecastAPI.ValidationErrorResponse
 
 ## Properties
 

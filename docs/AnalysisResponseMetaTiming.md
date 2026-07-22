@@ -1,4 +1,4 @@
-# ForecastapiSdk.AnalysisResponseMetaTiming
+# ForecastAPI.AnalysisResponseMetaTiming
 
 ## Properties
 

@@ -1,4 +1,4 @@
-# ForecastapiSdk.InventoryPlanningResponseMetaTiming
+# ForecastAPI.InventoryPlanningResponseMetaTiming
 
 ## Properties
 

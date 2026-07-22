@@ -3,7 +3,7 @@
   "version": "2.0.0",
   "description": "Time series forecasting service with multiple algorithms and automatic method selection",
   "license": "MIT",
-  "main": "dist/ForecastAPI/index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "babel src -d dist",
     "prepare": "npm run build",

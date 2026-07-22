@@ -1,4 +1,4 @@
-# ForecastapiSdk.TrafficForecastingResponseMetaTiming
+# ForecastAPI.TrafficForecastingResponseMetaTiming
 
 ## Properties
 

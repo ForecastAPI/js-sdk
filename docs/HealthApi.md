@@ -1,33 +1,32 @@
-# ForecastapiSdk.HealthApi
+# ForecastAPI.HealthApi
 
 All URIs are relative to *https://forecastapi.com*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
-[**v2Get**](HealthApi.md#v2Get) | **GET** /v2 | API root endpoint
-[**v2HealthGet**](HealthApi.md#v2HealthGet) | **GET** /v2/health | Health check endpoint
+[**getApiRoot**](HealthApi.md#getApiRoot) | **GET** /v2 | API root endpoint
+[**healthCheck**](HealthApi.md#healthCheck) | **GET** /v2/health | Health check endpoint
 
 
 
-## v2Get
+## getApiRoot
 
-> V2Get200Response v2Get()
+> GetApiRoot200Response getApiRoot()
 
 API root endpoint
 
 ### Example
 
 ```javascript
-import ForecastapiSdk from 'forecastapi-sdk';
+import ForecastAPI from 'forecastapi-sdk';
 
-let apiInstance = new ForecastapiSdk.HealthApi();
-apiInstance.v2Get((error, data, response) => {
-  if (error) {
-    console.error(error);
-  } else {
-    console.log('API called successfully. Returned data: ' + data);
-  }
+let apiInstance = new ForecastAPI.HealthApi();
+apiInstance.getApiRoot().then((data) => {
+  console.log('API called successfully. Returned data: ' + data);
+}, (error) => {
+  console.error(error);
 });
+
 ```
 
 ### Parameters
@@ -36,7 +35,7 @@ This endpoint does not need any parameter.
 
 ### Return type
 
-[**V2Get200Response**](V2Get200Response.md)
+[**GetApiRoot200Response**](GetApiRoot200Response.md)
 
 ### Authorization
 
@@ -48,25 +47,24 @@ No authorization required
 - **Accept**: application/json
 
 
-## v2HealthGet
+## healthCheck
 
-> V2HealthGet200Response v2HealthGet()
+> HealthCheck200Response healthCheck()
 
 Health check endpoint
 
 ### Example
 
 ```javascript
-import ForecastapiSdk from 'forecastapi-sdk';
+import ForecastAPI from 'forecastapi-sdk';
 
-let apiInstance = new ForecastapiSdk.HealthApi();
-apiInstance.v2HealthGet((error, data, response) => {
-  if (error) {
-    console.error(error);
-  } else {
-    console.log('API called successfully. Returned data: ' + data);
-  }
+let apiInstance = new ForecastAPI.HealthApi();
+apiInstance.healthCheck().then((data) => {
+  console.log('API called successfully. Returned data: ' + data);
+}, (error) => {
+  console.error(error);
 });
+
 ```
 
 ### Parameters
@@ -75,7 +73,7 @@ This endpoint does not need any parameter.
 
 ### Return type
 
-[**V2HealthGet200Response**](V2HealthGet200Response.md)
+[**HealthCheck200Response**](HealthCheck200Response.md)
 
 ### Authorization
 

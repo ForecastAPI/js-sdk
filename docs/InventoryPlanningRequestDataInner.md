@@ -1,4 +1,4 @@
-# ForecastapiSdk.InventoryPlanningRequestDataInner
+# ForecastAPI.InventoryPlanningRequestDataInner
 
 ## Properties
 

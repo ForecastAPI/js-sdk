@@ -1,4 +1,4 @@
-# ForecastapiSdk.TrafficForecastingResponseResultCostOptimizationRecommendationsInner
+# ForecastAPI.TrafficForecastingResponseResultCostOptimizationRecommendationsInner
 
 ## Properties
 

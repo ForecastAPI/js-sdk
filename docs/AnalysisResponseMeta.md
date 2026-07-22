@@ -1,4 +1,4 @@
-# ForecastapiSdk.AnalysisResponseMeta
+# ForecastAPI.AnalysisResponseMeta
 
 ## Properties
 

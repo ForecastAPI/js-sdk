@@ -1,4 +1,4 @@
-# ForecastapiSdk.ErrorResponse
+# ForecastAPI.ErrorResponse
 
 ## Properties
 
