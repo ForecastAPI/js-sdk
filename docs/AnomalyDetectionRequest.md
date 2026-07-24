@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 **startDate** | **Date** | Optional start date for the forecast | [optional] 
 **dataType** | **String** | Type of data (e.g., sales, demand, inventory, web_traffic) | 
 **periods** | **Number** | Number of periods to forecast | 
-**model** | **String** | Which forecasting engine to use. The advanced variants and ensemble provide higher accuracy at a higher usage cost than standard.  | [optional] [default to &#39;standard&#39;]
+**model** | **String** | Which forecasting engine to use. The advanced variants, ensemble and auto provide higher accuracy at a higher usage cost than standard.  &#x60;auto&#x60; routes each identifier to whichever model has proven most accurate on that series: a new identifier starts on the ensemble, and as actuals arrive for previously forecast dates, every model&#39;s realized accuracy is scored; once one clearly wins, that identifier is routed to it. The response reports the decision in &#x60;model_info.auto_selection&#x60;. Billed at the ensemble rate whichever model it routes to.  | [optional] [default to &#39;standard&#39;]
 **confidenceLevel** | **Number** | Confidence level for the prediction interval. Note that 0.80 is the widest band the foundation models (advanced-quantized, advanced-patched, ensemble) produce natively — for genuinely distinct levels beyond that, request a quantile fan via &#x60;quantiles&#x60; instead of repeating the call at several confidence levels.  | [optional] [default to 0.8]
 **quantiles** | **[Number]** | Decile levels to return per period — only deciles between 0.1 and 0.9 are accepted, because those are the levels every backend produces natively; anything finer would be interpolation served under a label the model never predicted. Adds a &#x60;quantiles&#x60; object to each forecast row alongside the usual bounds. Honoured by /v2/forecast and /v2/batch/forecast (request-level default or per-series override); rejected on grouped forecasts; ignored by other endpoints sharing this request shape.  | [optional] 
 **valueBounds** | [**ValueBounds**](ValueBounds.md) |  | [optional] 
@@ -57,6 +57,8 @@ Name | Type | Description | Notes
 * `advanced-patched` (value: `"advanced-patched"`)
 
 * `ensemble` (value: `"ensemble"`)
+
+* `auto` (value: `"auto"`)
 
 
 

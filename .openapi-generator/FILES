@@ -26,6 +26,8 @@ docs/AnomalyDetectionResponseResult.md
 docs/AnomalyDetectionResponseResultAnalysis.md
 docs/AnomalyDetectionResponseResultAnalysisDetectionSummary.md
 docs/AnomalyDetectionResponseResultAnomaliesInner.md
+docs/AutoSelection.md
+docs/AutoSelectionScoresValue.md
 docs/BatchForecastAccepted.md
 docs/BatchForecastRequest.md
 docs/BatchForecastSeries.md
@@ -159,6 +161,8 @@ src/model/AnomalyDetectionResponseResult.js
 src/model/AnomalyDetectionResponseResultAnalysis.js
 src/model/AnomalyDetectionResponseResultAnalysisDetectionSummary.js
 src/model/AnomalyDetectionResponseResultAnomaliesInner.js
+src/model/AutoSelection.js
+src/model/AutoSelectionScoresValue.js
 src/model/BatchForecastAccepted.js
 src/model/BatchForecastRequest.js
 src/model/BatchForecastSeries.js
@@ -280,6 +284,8 @@ test/model/AnomalyDetectionResponseResult.spec.js
 test/model/AnomalyDetectionResponseResultAnalysis.spec.js
 test/model/AnomalyDetectionResponseResultAnalysisDetectionSummary.spec.js
 test/model/AnomalyDetectionResponseResultAnomaliesInner.spec.js
+test/model/AutoSelection.spec.js
+test/model/AutoSelectionScoresValue.spec.js
 test/model/BatchForecastAccepted.spec.js
 test/model/BatchForecastRequest.spec.js
 test/model/BatchForecastSeries.spec.js

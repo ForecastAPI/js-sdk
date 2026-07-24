@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 **frequency** | **String** | Data frequency, shared by every series in the hierarchy | 
 **periods** | **Number** | Number of periods to forecast, shared by every node | 
 **dataType** | **String** | Type of data (e.g., sales, demand, revenue). Sales-family types get non-negative reconciliation treatment. | [optional] [default to &#39;sales&#39;]
-**model** | **String** | Forecasting engine used for every node | [optional] [default to &#39;standard&#39;]
+**model** | **String** | Forecasting engine used for every node. &#x60;auto&#x60; is not accepted here: it routes per series, and a hierarchy is reconciled under one model.  | [optional] [default to &#39;standard&#39;]
 **confidence** | **Number** | Confidence level for prediction intervals, shared by every node | [optional] [default to 0.8]
 **confidenceLevel** | **Number** | Alias for &#x60;confidence&#x60;; if both are sent, &#x60;confidence&#x60; wins | [optional] 
 **series** | [**[GroupedForecastSeries]**](GroupedForecastSeries.md) | The leaves of the hierarchy — one entry per combination of dimension values, each combination exactly once. Up to 200 series on a paid plan, 10 on the free tier. Aggregate levels are derived by the API and must not be sent.  | 
